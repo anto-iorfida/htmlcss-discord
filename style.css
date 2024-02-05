@@ -59,7 +59,7 @@ header {
     background-color: white;
 }
 /* ******************* */
-/* ----SECTION 1 ------------------------------------------------ */
+/* ----SECTION 1 ------------------------------------------------------------------------------------------------------------------------- */
 /* ******************* */
 .section-1{
     background-color: white;
@@ -102,7 +102,10 @@ header {
 }
 .section-2 .element-2{
     width: 40%;
-    padding: 110px 130px;
+}
+.curva {
+    background-position: center;
+    background-size: cover;
 }
 /* ******************* */
 /* ----SECTION 3 ------------------------------------------------ */
@@ -114,7 +117,6 @@ header {
 }
 .section-3 .element-1{
     width: 40%;
-    padding: 90px 0 0 250px;
 }
 .section-3 .element-2{
     width: 60%;
@@ -136,7 +138,6 @@ header {
 }
 .section-4 .element-2{
     width: 40%;
-    padding: 80px 110px;
 }
 /* ******************* */
 /* ----SECTION 5 ------------------------------------------------ */
@@ -146,15 +147,12 @@ header {
     height: 1000px;
     padding: 50px 0;
 }
-.section-5 h1 {
-    font-size: xx-large;
-}
 .section-5 p {
-    padding: 25px 200px;
+    padding: 0px 200px;
     font-size: 16px;
 }
 .section-5 img {
-    max-width: 1000px;
+    width: 900px;
 }
 .section-5 .element-1{
     width: 100%;
@@ -185,13 +183,14 @@ header {
     padding-bottom: 40px;
     color: white;
 }
+.section-6 h1 {
+    color: #7289da;
+    font-size: 34px;
+}
 .section-6 .element-1 img {
     max-height: 20px;
     display: inline-block;
     vertical-align: middle;
-}
-.section-6 h1 {
-    color: #7289da;
 }
 .section-6 .element-1 p {
     display: inline-block;
@@ -224,28 +223,35 @@ header {
 } 
 .section-6 ul li:first-child a {
     color: #7289da;
+    font-size: 20px;
 }
 .section-6 .element-1{
     width: 30%;
 }
-
 /* ******************* */
 /* ----STYLE ------------------------------------------------ */
 /* ******************* */
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 25px;
 }
 p {
     padding-bottom: 25px;  
 }
 .section-2 img,.section-3 img,.section-4 img {
-    max-width: 500px;
+    max-width: 550px;
+}
+
+.section-2 .element-2 ,
+.section-4 .element-2 ,
+.section-3 .element-1 {
+    padding: 110px 100px;
 }
 hr {
    border-color: #4a5882;
    width: 1180px;
    margin: 0 auto;
+
 }
 /* ******************* */
 /* ----RULES GENERAL ---- */
