@@ -1,0 +1,249 @@
+/*-------------------
+    RESET
+-------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black;
+    border-style: dashed;
+} 
+
+:not(div){
+border-style: none;
+} */
+/*-------------------
+    HEADER
+-------------------*/
+header{
+     padding: 18px 0;
+     height: 80px;
+     background-color: #3161e0;
+}
+.conteiner{
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: transparent;
+    display: flex;
+   
+}
+.box-header{
+    height: 100%;
+    padding: 10px;
+}
+.box-left{
+    width: 25%; 
+    padding: 0px;   
+}
+.box-center{
+    width: 50%;
+    text-align: center;
+}
+.box-center ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.box-center a {
+    text-decoration: none;
+    color: white;
+}
+.box-right{
+    width: 25%;
+    text-align: end;
+    color: white;
+    padding: 0;
+}
+.box-right .button{
+    background-color: white;
+}
+
+/*-------------------
+    MAIN
+-------------------*/
+
+/* ----SIZE , PADDING AND BACKGROUND-COLORE SECTION ---- */
+.section-1{
+    height: 500px;
+    padding: 50px 0;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    margin: 0;
+    
+}
+.section-2{
+    background-color: white;
+    height: 600px;
+    padding: 50px 0;
+}
+.section-3{
+    background-color: gray;
+    height: 600px;
+    padding: 50px 0;
+}
+.section-4{
+    background-color: white;
+    height: 600px;
+    padding: 50px 0;
+}
+.section-5{
+    background-color: gray;
+    height: 1000px;
+    padding: 50px 0;
+}
+.section-6{
+    background-color: black;
+    height: 630px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+/* ----STILE ---- */
+.section-1 h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.section-1 p {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+
+/* ----/STILE ---- */
+.button {
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px 12px;
+    text-align: center;
+    border: 0 solid transparent;
+}
+.contenitor-section{
+    max-width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.contenitor-section div {
+    height: 100%;
+}
+/* ----ELEMENT IN SECTION ---- */
+/* ----SECTION 1 ----------------------------------- */
+.section-1 .contenitor-section{
+    max-width: 900px;
+}
+.section-1 .element-1{
+    width: 900px;
+    background-color: transparent;
+    text-align: center;
+    padding: 50px 140px;
+    color: white;
+}
+/* ----SECTION 2 ----------------------------------- */
+.section-2 .element-1{
+    width: 60%;
+    background-color: lightblue;
+
+}
+.section-2 .element-2{
+    width: 40%;
+    background-color: salmon;
+}
+/* ----SECTION 3 ----------------------------------- */
+.section-3 .element-1{
+    width: 40%;
+    background-color: lightblue;
+}
+.section-3 .element-2{
+    width: 60%;
+    background-color: salmon;
+}
+/* ----SECTION 4 --------------------------------- */
+.section-4 .element-1{
+    width: 60%;
+    background-color: lightblue;
+}
+.section-4 .element-2{
+    width: 40%;
+    background-color: salmon;
+}
+/* ----SECTION 5 --------------------------------- */
+.section-5 .element-1{
+    width: 100%;
+    background-color: green;
+}
+/* ----SECTION 6 -------------------------------- */
+.section-6 .element-1{
+    width: 30%;
+    background-color: salmon
+}
+/* .section-6 .element-2{
+    width: calc((100% - 360px) / 4);
+    background-color: lightblue;
+}
+.section-6 .element-3{
+    width: calc((100% - 360px) / 4);
+    background-color: lightblue;
+}
+.section-6 .element-4{
+    width: calc((100% - 360px) / 4);
+    background-color: lightblue;
+}
+.section-6 .element-5{
+    width: calc((100% - 360px) / 4);
+    background-color: lightblue;
+} */
+
+.prova{
+    width: 100%;
+    display: flex;
+}
+.prova .element{
+    width: calc(100%  / 4);
+    background-color: lightblue;
+}
+/* per modificare il contenitore specifico mettere :nth-child(n)  dove n sta per il numero di contenitore che si vuole modficares*/
+
+/*-------------------
+    FOOTER
+-------------------*/
+footer{
+    padding-top: 30px;
+    height: 110px;
+    background-color: black;
+    border-top: 1px solid white ;
+}
+.contenitor-footer{
+    height: 100%;
+    max-width: 1180px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0
+}
+/* TWO BOX, SX AND DX */
+/* .box-footer-left{
+    width: 50px;
+    height: 30px;
+    background-color: orange; 
+    padding: 4px 8px;
+} */
+/* .box-footer-right{
+    width: 50px;
+    height: 30px;
+    background-color: orange; 
+    padding: 4px;
+} */
+
+.contenitor-footer .box-footer {  
+    width: 50px;
+    height: 30px;
+    background-color: orange;
+
+}
+
+.contenitor-footer .box-footer.left{
+    padding: 4px 8px;
+} 
+.contenitor-footer .box-footer.right {
+    padding: 4px ;
+}
