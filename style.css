@@ -88,7 +88,7 @@ header{
     padding: 50px 0;
 }
 .section-5{
-    background-color: gray;
+    background-color: #f6f6f6;
     height: 1000px;
     padding: 50px 0;
 }
@@ -136,6 +136,18 @@ header{
 }
 .section-4 img {
     max-width: 500px;
+}
+.section-5 h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.section-5 p {
+    padding: 25px 200px;
+    font-size: 16px;
+
+}
+.section-5 img {
+    max-width: 1000px;
 }
 
 
@@ -203,7 +215,7 @@ header{
 /* ----SECTION 5 --------------------------------- */
 .section-5 .element-1{
     width: 100%;
-    background-color: green;
+    text-align: center;
 }
 /* ----SECTION 6 -------------------------------- */
 .section-6 .element-1{
