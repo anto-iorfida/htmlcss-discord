@@ -106,6 +106,16 @@ header{
     font-size: 20px;
     padding-bottom: 25px;
 }
+.section-2 h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.section-2 p {
+    padding-bottom: 25px;
+}
+.section-2 img {
+    max-width: 500px;
+}
 
 
 /* ----/STILE ---- */
@@ -140,12 +150,13 @@ header{
 /* ----SECTION 2 ----------------------------------- */
 .section-2 .element-1{
     width: 60%;
-    background-color: lightblue;
+    padding-top: 80px;
+    text-align: right;
 
 }
 .section-2 .element-2{
     width: 40%;
-    background-color: salmon;
+    padding: 110px 130px;
 }
 /* ----SECTION 3 ----------------------------------- */
 .section-3 .element-1{
