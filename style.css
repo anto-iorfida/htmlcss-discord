@@ -77,7 +77,7 @@ header{
     padding: 50px 0;
 }
 .section-3{
-    background-color: gray;
+    background-color: #f6f6f6;
     height: 600px;
     padding: 50px 0;
 }
@@ -114,6 +114,16 @@ header{
     padding-bottom: 25px;
 }
 .section-2 img {
+    max-width: 500px;
+}
+.section-3 h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.section-3 p {
+    padding-bottom: 25px;
+}
+.section-3 img {
     max-width: 500px;
 }
 
@@ -161,11 +171,12 @@ header{
 /* ----SECTION 3 ----------------------------------- */
 .section-3 .element-1{
     width: 40%;
-    background-color: lightblue;
+    padding: 90px 0 0 250px;
 }
 .section-3 .element-2{
     width: 60%;
-    background-color: salmon;
+    padding-top: 80px;
+    text-align: center;
 }
 /* ----SECTION 4 --------------------------------- */
 .section-4 .element-1{
@@ -175,6 +186,7 @@ header{
 .section-4 .element-2{
     width: 40%;
     background-color: salmon;
+
 }
 /* ----SECTION 5 --------------------------------- */
 .section-5 .element-1{
