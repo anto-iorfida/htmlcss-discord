@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
     /* border: 1px solid black;
     border-style: dashed;
 } 
@@ -12,9 +13,9 @@
 :not(div){
 border-style: none;
 } */
-/*-------------------
-    HEADER
--------------------*/
+/* ******************* */
+/* ----HEADER ------------------------------------------------ */
+/* ******************* */
 header{
      padding: 18px 0;
      height: 80px;
@@ -57,12 +58,9 @@ header{
 .box-right .button{
     background-color: white;
 }
-
-/*-------------------
-    MAIN
--------------------*/
-
-/* ----SIZE , PADDING AND BACKGROUND-COLORE SECTION ---- */
+/* ******************* */
+/* ----SECTION 1 ------------------------------------------------ */
+/* ******************* */
 .section-1{
     background-color: white;
     height: 500px;
@@ -70,106 +68,15 @@ header{
     background-image: url(img/jumbo.png);
     background-size: cover;
     margin: 0;
-    
 }
-.section-2{
-    background-color: white;
-    height: 600px;
-    padding: 50px 0;
-}
-.section-3{
-    background-color: #f6f6f6;
-    height: 600px;
-    padding: 50px 0;
-}
-.section-4{
-    background-color: white;
-    height: 600px;
-    padding: 50px 0;
-}
-.section-5{
-    background-color: #f6f6f6;
-    height: 1000px;
-    padding: 50px 0;
-}
-.section-6{
-    background-color: black;
-    height: 630px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-}
-/* ----STILE ---- */
 .section-1 h1 {
     font-size: 50px;
-    padding-bottom: 30px;
-}
+    color: white;
+} 
 .section-1 p {
     font-size: 20px;
-    padding-bottom: 25px;
+    color: white;
 }
-.section-2 h1 {
-    font-size: 30px;
-    padding-bottom: 30px;
-}
-.section-2 p {
-    padding-bottom: 25px;
-}
-.section-2 img {
-    max-width: 500px;
-}
-.section-3 h1 {
-    font-size: 30px;
-    padding-bottom: 30px;
-}
-.section-3 p {
-    padding-bottom: 25px;
-}
-.section-3 img {
-    max-width: 500px;
-}
-.section-4 h1 {
-    font-size: 30px;
-    padding-bottom: 30px;
-}
-.section-4 p {
-    padding-bottom: 25px;
-}
-.section-4 img {
-    max-width: 500px;
-}
-.section-5 h1 {
-    font-size: 30px;
-    padding-bottom: 30px;
-}
-.section-5 p {
-    padding: 25px 200px;
-    font-size: 16px;
-
-}
-.section-5 img {
-    max-width: 1000px;
-}
-
-
-/* ----/STILE ---- */
-.button {
-    border-radius: 20px;
-    background-color: transparent;
-    padding: 10px 12px;
-    text-align: center;
-    border: 0 solid transparent;
-}
-.contenitor-section{
-    max-width: 1180px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-}
-.contenitor-section div {
-    height: 100%;
-}
-/* ----ELEMENT IN SECTION ---- */
-/* ----SECTION 1 ----------------------------------- */
 .section-1 .contenitor-section{
     max-width: 900px;
 }
@@ -179,7 +86,14 @@ header{
     text-align: center;
     padding: 50px 140px;
 }
-/* ----SECTION 2 ----------------------------------- */
+/* ******************* */
+/* ----SECTION 2 ------------------------------------------------ */
+/* ******************* */
+.section-2{
+    background-color: white;
+    height: 600px;
+    padding: 50px 0;
+}
 .section-2 .element-1{
     width: 60%;
     padding-top: 80px;
@@ -190,7 +104,14 @@ header{
     width: 40%;
     padding: 110px 130px;
 }
-/* ----SECTION 3 ----------------------------------- */
+/* ******************* */
+/* ----SECTION 3 ------------------------------------------------ */
+/* ******************* */
+.section-3{
+    background-color: #f6f6f6;
+    height: 600px;
+    padding: 50px 0;
+}
 .section-3 .element-1{
     width: 40%;
     padding: 90px 0 0 250px;
@@ -200,7 +121,14 @@ header{
     padding-top: 80px;
     text-align: center;
 }
-/* ----SECTION 4 --------------------------------- */
+/* ******************* */
+/* ----SECTION 4 ------------------------------------------------ */
+/* ******************* */
+.section-4{
+    background-color: white;
+    height: 600px;
+    padding: 50px 0;
+}
 .section-4 .element-1{
     width: 60%;
     padding-top: 80px;
@@ -209,88 +137,138 @@ header{
 .section-4 .element-2{
     width: 40%;
     padding: 80px 110px;
-
-
 }
-/* ----SECTION 5 --------------------------------- */
+/* ******************* */
+/* ----SECTION 5 ------------------------------------------------ */
+/* ******************* */
+.section-5{
+    background-color: #f6f6f6;
+    height: 1000px;
+    padding: 50px 0;
+}
+.section-5 p {
+    padding: 25px 200px;
+    font-size: 16px;
+}
+.section-5 img {
+    max-width: 1000px;
+}
 .section-5 .element-1{
     width: 100%;
     text-align: center;
 }
-/* ----SECTION 6 -------------------------------- */
+/* ******************* */
+/* ----SECTION 6 ------------------------------------------------ */
+/* ******************* */
+.section-6{
+    background-color: black;
+    height: 550px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: white;
+}
+.section-6 h1 {
+    padding-top: 50px ;
+} 
+.section-6 .element-1 img {
+    max-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-6 .element-1 p {
+    display: inline-block;
+    padding: 6px;
+    vertical-align: middle;
+}
+.section-6 .element-1 a{
+    padding: 0 14px;
+}
+.icon-social {
+    padding-top: 20px;
+}
+.section-6 ul {
+    list-style-type: none;
+    padding: 50px 0 0 50px;
+}
+.section-6 a {
+    text-decoration: none;
+    color: white;
+}
+.section-6 li {
+    padding-bottom: 16px;
+} 
 .section-6 .element-1{
     width: 30%;
-    background-color: salmon
 }
-/* .section-6 .element-2{
-    width: calc((100% - 360px) / 4);
-    background-color: lightblue;
-}
-.section-6 .element-3{
-    width: calc((100% - 360px) / 4);
-    background-color: lightblue;
-}
-.section-6 .element-4{
-    width: calc((100% - 360px) / 4);
-    background-color: lightblue;
-}
-.section-6 .element-5{
-    width: calc((100% - 360px) / 4);
-    background-color: lightblue;
-} */
-
 .prova{
     width: 100%;
     display: flex;
 }
 .prova .element{
     width: calc(100%  / 4);
-    background-color: lightblue;
 }
-/* per modificare il contenitore specifico mettere :nth-child(n)  dove n sta per il numero di contenitore che si vuole modficares*/
+/* ******************* */
+/* ----STYLE ------------------------------------------------ */
+/* ******************* */
+h1 {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+p {
+    padding-bottom: 25px;  
+}
 
-/*-------------------
-    FOOTER
--------------------*/
-footer{
-    padding-top: 30px;
-    height: 110px;
+.section-2 img,.section-3 img,.section-4 img {
+    max-width: 500px;
+}
+/* ******************* */
+/* ----RULES GENERAL ---- */
+/* ******************* */
+.button {
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 12px;
+    text-align: center;
+    border: 0 solid white;
+}
+.botton-black{
+    background-color: black;
+    color: white;
+}
+.botton-bluelight{
+    background-color: #8ea1e1;
+    color: white;
+}
+.contenitor-section{
+    max-width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.contenitor-section div {
+    height: 100%;
+}
+/* ******************* */
+/* ----FOOTER ---- */
+/* ******************* */
+footer {
+    padding-top: 20px;
+    height: 160px;
     background-color: black;
     border-top: 1px solid white ;
 }
 .contenitor-footer{
     height: 100%;
     max-width: 1180px;
-    background-color: aquamarine;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 24px 0
 }
 /* TWO BOX, SX AND DX */
-/* .box-footer-left{
-    width: 50px;
-    height: 30px;
-    background-color: orange; 
-    padding: 4px 8px;
-} */
-/* .box-footer-right{
-    width: 50px;
-    height: 30px;
-    background-color: orange; 
-    padding: 4px;
-} */
+
 
 .contenitor-footer .box-footer {  
     width: 50px;
     height: 30px;
-    background-color: orange;
-
-}
-
-.contenitor-footer .box-footer.left{
-    padding: 4px 8px;
-} 
-.contenitor-footer .box-footer.right {
-    padding: 4px ;
-}
+}}
