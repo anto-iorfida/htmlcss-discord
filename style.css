@@ -7,16 +7,16 @@
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
     /* border: 1px solid black;
-    border-style: dashed;
+    border-style: dashed;*/
 } 
 
-:not(div){
+/* :not(div){
 border-style: none;
-} */
+} */ 
 /* ******************* */
 /* ----HEADER ------------------------------------------------ */
 /* ******************* */
-header{
+header {
      padding: 18px 0;
      height: 80px;
      background-color: #3161e0;
@@ -146,6 +146,9 @@ header{
     height: 1000px;
     padding: 50px 0;
 }
+.section-5 h1 {
+    font-size: xx-large;
+}
 .section-5 p {
     padding: 25px 200px;
     font-size: 16px;
@@ -157,28 +160,50 @@ header{
     width: 100%;
     text-align: center;
 }
+.section-download h2 {
+    padding: 30px;
+    font-size:xx-large;
+    margin-bottom: 10px;
+}
+.section-download .button {
+    font-size: 20px;
+}
+.section-download{
+    /* max-width: 200px;
+    height: 400px; */
+    background-image: url(img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
 /* ******************* */
 /* ----SECTION 6 ------------------------------------------------ */
 /* ******************* */
 .section-6{
     background-color: black;
     height: 550px;
-    padding-top: 10px;
+    padding-top: 60px;
     padding-bottom: 40px;
     color: white;
 }
-.section-6 h1 {
-    padding-top: 50px ;
-} 
 .section-6 .element-1 img {
     max-height: 20px;
     display: inline-block;
     vertical-align: middle;
 }
+.section-6 h1 {
+    color: #7289da;
+}
 .section-6 .element-1 p {
     display: inline-block;
     padding: 6px;
     vertical-align: middle;
+}
+.box-4-section{
+    width: 100%;
+    display: flex;
+}
+.box-4-section .element{
+    width: calc(100%  / 4);
 }
 .section-6 .element-1 a{
     padding: 0 14px;
@@ -188,7 +213,7 @@ header{
 }
 .section-6 ul {
     list-style-type: none;
-    padding: 50px 0 0 50px;
+    padding-left:  50px;
 }
 .section-6 a {
     text-decoration: none;
@@ -197,16 +222,13 @@ header{
 .section-6 li {
     padding-bottom: 16px;
 } 
+.section-6 ul li:first-child a {
+    color: #7289da;
+}
 .section-6 .element-1{
     width: 30%;
 }
-.prova{
-    width: 100%;
-    display: flex;
-}
-.prova .element{
-    width: calc(100%  / 4);
-}
+
 /* ******************* */
 /* ----STYLE ------------------------------------------------ */
 /* ******************* */
@@ -217,9 +239,13 @@ h1 {
 p {
     padding-bottom: 25px;  
 }
-
 .section-2 img,.section-3 img,.section-4 img {
     max-width: 500px;
+}
+hr {
+   border-color: #4a5882;
+   width: 1180px;
+   margin: 0 auto;
 }
 /* ******************* */
 /* ----RULES GENERAL ---- */
@@ -255,7 +281,6 @@ footer {
     padding-top: 20px;
     height: 160px;
     background-color: black;
-    border-top: 1px solid white ;
 }
 .contenitor-footer{
     height: 100%;
@@ -265,10 +290,3 @@ footer {
     justify-content: space-between;
     padding: 24px 0
 }
-/* TWO BOX, SX AND DX */
-
-
-.contenitor-footer .box-footer {  
-    width: 50px;
-    height: 30px;
-}}
