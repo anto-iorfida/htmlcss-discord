@@ -64,6 +64,7 @@ header{
 
 /* ----SIZE , PADDING AND BACKGROUND-COLORE SECTION ---- */
 .section-1{
+    background-color: white;
     height: 500px;
     padding: 50px 0;
     background-image: url(img/jumbo.png);
@@ -126,6 +127,16 @@ header{
 .section-3 img {
     max-width: 500px;
 }
+.section-4 h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.section-4 p {
+    padding-bottom: 25px;
+}
+.section-4 img {
+    max-width: 500px;
+}
 
 
 /* ----/STILE ---- */
@@ -155,7 +166,6 @@ header{
     background-color: transparent;
     text-align: center;
     padding: 50px 140px;
-    color: white;
 }
 /* ----SECTION 2 ----------------------------------- */
 .section-2 .element-1{
@@ -181,11 +191,13 @@ header{
 /* ----SECTION 4 --------------------------------- */
 .section-4 .element-1{
     width: 60%;
-    background-color: lightblue;
+    padding-top: 80px;
+    text-align: end;
 }
 .section-4 .element-2{
     width: 40%;
-    background-color: salmon;
+    padding: 80px 110px;
+
 
 }
 /* ----SECTION 5 --------------------------------- */
